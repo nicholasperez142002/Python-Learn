@@ -16,5 +16,32 @@ print("""Your Learning Path:
 \t - Data Engineering
 \t - AI""")
 
+#variable assignment
+x=1
+print(x)
+x=2 #variable overwritten
+print(x)
+y=x+3 # will take 2 because the first x was overwritten
+print(y)
 
-print("This a test for macos push")
+
+print("My name is Nicholas ")
+print("Nicholas is learning python")
+print("Nicholas wants to be a data science expert.")
+
+name = "Steven"
+language = "Python"
+print("My name is", name)
+print(name, "is learning", language)
+print(name, "wants to be a", language, "expert.")
+
+name = "Nicholas" # this will not do anything because python executes line by line
+
+email = "nicholas.com"
+print("info@", email)
+print("support@", email)
+print("www.", email)
+
+name = input("Enter Your Name:") #dynamic value
+country = "United States" # hard code value
+print(name, "comes from", country)
