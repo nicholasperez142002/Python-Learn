@@ -36,7 +36,7 @@ print(search == data)
 #Challenge
 # Take this messy string "968-Maria, ( D@t@ Engineer );; 27  "
 # Clean it to output: "name: maria | role: data engineer | age: 27"
-messy = "968-Maria, ( D@t@ Engineer );; 27  "
-print(messy.strip().replace("@","a").strip("968-").replace("("," | ").replace(")"," | ").replace(";",""))
-print(messy.strip("968-").strip(",").replace("("," | ").replace(")"," | "))
+#messy = "968-Maria, ( D@t@ Engineer );; 27  "
+#print(messy.strip().replace("@","a").strip("968-").replace("("," | ").replace(")"," | ").replace(";",""))
+
 
