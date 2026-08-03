@@ -331,7 +331,7 @@ students = [['Maria', 85],
 print(list(filter(lambda row: row[0].startswith('M'), students)))
 
 #List comprehension
-domains = ['www.google.com'
+domains = ['www.google.com',
            'openai.com',
            'localhost',
            'WWW.NICHOLASPEREZ.COM']
