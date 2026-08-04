@@ -115,8 +115,8 @@ for x in (1,2,3): # outer loop
         print(x,y)
 
 for x in range(3): #outer loop
-    for y in range(2): #outer loop
-        for z in range(2):
+    for y in range(2): #inner loop
+        for z in range(2): #inner inner loop
             print(x,y,z)
 
 colors = ['red','blue','green']

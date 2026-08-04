@@ -1,0 +1,3 @@
+Process Started.
+Processed Email: {'username': 'nicholasperez', 'domain': 'gmail.com'}
+process Stopped.
